@@ -8,12 +8,12 @@ constexpr uint8_t SS_PIN = D4;     // Configurable, see typical pin layout above
 MFRC522 mfrc522(SS_PIN, RST_PIN);
 
 //WiFi credentials
-#define WIFI_SSID "001_2.4GHz"
-#define WIFI_PASSWORD "Pepejeans73"
+#define WIFI_SSID <Your Wifi SSID>
+#define WIFI_PASSWORD <Your Wifi Password>
 
 //Database Credentials
-#define API_KEY "AIzaSyChAoxN5jVMNNhxZHnzT9-AyIe-ubqoBx0"
-#define DATABASE_URL "https://espmodule-670a0-default-rtdb.asia-southeast1.firebasedatabase.app/" 
+#define API_KEY <Your Firebase Project API Key>
+#define DATABASE_URL <Your Firebase  Real Time Database URL> 
 
 
 FirebaseData fbdo;
